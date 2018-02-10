@@ -8,7 +8,7 @@ import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 dataset = pd.read_csv('dataset.csv')
 dataset.shape
-get_ipython().magic('matplotlib inline')
+#get_ipython().magic('matplotlib inline')
 
 
 # In[23]:
@@ -176,4 +176,6 @@ print('linear_score: '+str(linear_score))
 print('logistic_score: '+str(logistic_score))
 print('lasso_score: '+str(lasso_score))
 print('bagging_score: '+str(bagging_score))
+
+input()
 
